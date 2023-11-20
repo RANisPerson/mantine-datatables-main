@@ -1,11 +1,9 @@
-import { Inter } from "next/font/google";
-import HomeFeature from "@/features/home";
-const inter = Inter({ subsets: ["latin"] });
+import DashboardPage from "@/module/dashboard";
 
 export default function Home() {
   return (
     <>
-      <HomeFeature/>
+      <DashboardPage/>
     </>
   );
 }
